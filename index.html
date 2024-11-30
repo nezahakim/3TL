@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>3TL</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="hud">
+            <div class="health-bar">
+                <div class="health-fill"></div>
+                <span class="health-text">100</span>
+            </div>
+            <div class="ammo-counter">30/90</div>
+            <div class="score">Score: 0</div>
+            <div class="level">Level: 1</div>
+            <div class="weapon-slot"></div>
+        </div>
+        <canvas id="gameCanvas"></canvas>
+    </div>
+    <div class="menu hidden">
+        <h1>FPS Game</h1>
+        <button id="startGame">Start Game</button>
+        <button id="settings">Settings</button>
+    </div>
+    <script src="js/constants.js"></script>
+    <script src="js/audio.js"></script>
+    <script src="js/weapons.js"></script>
+    <script src="js/powerups.js"></script>
+    <script src="js/enemies.js"></script>
+    <script src="js/levels.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/environment.js"></script>
+    <script src="js/pathfinding.js"></script>
+    <script src="js/game.js"></script>
+</body>
+</html>
